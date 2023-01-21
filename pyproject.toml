@@ -1,0 +1,25 @@
+[project]
+name = 'nectarine'
+version = '1.0.5'
+description = 'Library to load configuration from various sources'
+readme = 'README.md'
+requires-python = '>=3.8'
+license = { file = 'LICENSE' }
+authors = [{ name = 'Clément Doumergue', email = 'clement.doumergue@etna.io' }]
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+]
+urls = { homepage = 'https://github.com/doom/nectarine' }
+
+[project.optional-dependencies]
+yaml = ['PyYAML']
+test = ['pytest~=6.0.1']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools.packages.find]
+where = ['src']

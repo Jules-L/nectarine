@@ -4,13 +4,13 @@ Library to load configuration from various sources.
 
 ## Requirements
 
-Nectarine requires Python 3.7 or above, and has been tested using Python 3.7 and 3.8.
+Nectarine requires Python 3.8 or above, and has been tested using Python 3.8 and 3.9.
 
 ## Installing
 
 Nectarine can be installed through pip.
 
-```
+``` console
 $ pip3 install nectarine        # Install the basic version
 $ pip3 install nectarine[yaml]  # Install the YAML extension
 ```
